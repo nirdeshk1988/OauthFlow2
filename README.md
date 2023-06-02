@@ -7,8 +7,8 @@
 # Setup
 
 * Clone the repo in your local folder.
-* Run the below command to install the npm supporting 
-   npm install
+* Run the below command to install the supporting node module
+  - npm install
 * Go to your salesforce and create the connected app.
 * Open the web-server.js file and update the callback url ,client id and Client Secret from your connected app.
 * Open the uer-agent.js file and update the callback url and cunsumer key.
@@ -18,10 +18,10 @@
 # RUN WEB-Server Flow
 
 * Open the temminal and run the below command.
-   * nodemon web-server.js
+   * node web-server.js
    
 # RUN User-Agent Flow
 
 * Open the temminal and run the below command.
-   * nodemon user-agent.js
+   - node user-agent.js
    
